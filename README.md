@@ -11,6 +11,8 @@ practice code as I go, along with small projects to apply what I've learned.
 - `02-control-flow/` — if statements, loops, logical operators
 - `03-data-structures/` — lists, tuples, sets, dictionaries, strings
 - `04-revision/` — revision and practice notes
+- `05-functions/` — functions, default arguments, keyword arguments
+- `06-random-numbers/` — the `random` module, generating random numbers
 - `projects/` — small applied projects:
   - Quiz game
   - Calculator
@@ -18,6 +20,8 @@ practice code as I go, along with small projects to apply what I've learned.
   - Shopping cart program
   - Temperature converter
   - Weight converter
+  - Number guessing game
+  - Rock Paper Scissors game
 
 ## Why this exists
 
