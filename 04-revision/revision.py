@@ -135,8 +135,44 @@
 
 # sum(7,8)
 
-def addition(a,b):
-    return(a+b)
+# def addition(a,b):
+#     return(a+b)
 
-result = addition(2,4) +1
-print(result)
+# result = addition(2,4) +1
+# print(result)
+
+# def display_invoice(name,amount,due_date):
+#     print(f"Hello {name}")
+#     print(f"You have ${amount:.2f} due on {due_date}")
+
+
+# display_invoice("Steve",5000.86,"14/07/27")
+
+# def username_maker(name,age,sign):
+#     username = name.lower()+str(age)+sign[0:3].lower()
+#     return username
+
+# print(f"Your username is {username_maker("Shubham",20,"Gemini")}")
+# print(f"Your username is {username_maker("John",22,"Taurus")}")
+# print("Your username is:")
+# print(username_maker("Shreya",21,"Pisces"))
+
+# def fullname(first_name,last_name):
+#     first_name = first_name.capitalize()
+#     last_name = last_name.capitalize()
+#     return first_name +" "+ last_name
+
+# print(fullname("spongebob","squarepants"))
+
+# def net_price(mrp,discount,tax=3):
+#     return mrp * (1-discount) * (1+tax)
+
+# print(f"{net_price(240,0.56):.2f}")
+
+import time
+
+def countdown(start,end):
+    for x in range(start, end+1):
+        print(x)
+        time.sleep(1)
+    print("Done")
