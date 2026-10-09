@@ -7,13 +7,13 @@ practice code as I go, along with small projects to apply what I've learned.
 
 ## Structure
 
-- `01-basics/` — variables, type casting, user input, arithmetic, formatting
-- `02-control-flow/` — if statements, loops, logical operators
-- `03-data-structures/` — lists, tuples, sets, dictionaries, strings
+- `01-basics/` — variables, type casting, user input, arithmetic, format specifiers
+- `02-control-flow/` — if statements, conditional expressions, logical and membership operators, loops, match-case
+- `03-data-structures/` — lists, tuples, sets, dictionaries, 2D collections, strings, iterables, list comprehensions
 - `04-revision/` — revision and practice notes
-- `05-functions/` — functions, default arguments, keyword arguments
-- `06-random-numbers/` — the `random` module, generating random numbers
-- `projects/` — small applied projects:
+- `05-modules-and-libraries/` — importing modules, building a custom module, the `random` module
+- `06-functions/` — functions, default arguments, `*args` and `**kwargs`, scope resolution, `if __name__ == "__main__"`
+- `Projects/` — small applied projects:
   - Quiz game
   - Calculator
   - Digital menu
@@ -22,6 +22,9 @@ practice code as I go, along with small projects to apply what I've learned.
   - Weight converter
   - Number guessing game
   - Rock Paper Scissors game
+  - Bank ATM program
+  - Slot machine
+  - Encryption program (character substitution with PIN-protected decryption)
 
 ## Why this exists
 
